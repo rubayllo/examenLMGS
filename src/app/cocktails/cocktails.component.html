@@ -1,0 +1,10 @@
+<div class="container overflow-hidden text-center">
+  <div class="row gy-5 justify-content-evenly">
+    <div *ngFor="let margarita of datos " class="card" style="width: 18rem;">
+        <img src="{{margarita.strDrinkThumb}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">{{margarita.strDrink}}</p>
+      </div>
+    </div>
+  </div>
+</div>
